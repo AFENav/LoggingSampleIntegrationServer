@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ascii"?>
+<soap:Envelope xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema'>
+	<soap:Body>
+		<AFEValidateResult xmlns="http://energynavigator.com/xml/afe/validate-result/2" xmlns:xsi2001="http://www.w3.org/2001/XMLSchema-instance" xsi2001:schemaLocation="http://energynavigator.com/xml/afe/validate-result/2 afe-validate-result.xsd">
+
+			<Success/>
+
+<!--       <Failure>
+        <ValidationErrorMessage>Test Error</ValidationErrorMessage>
+      </Failure>
+ -->
+			<Warnings>
+				<ValidationWarningMessage>Test Warning</ValidationWarningMessage>
+			</Warnings>
+
+		</AFEValidateResult>
+	</soap:Body>
+</soap:Envelope>
